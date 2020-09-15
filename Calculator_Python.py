@@ -3,7 +3,7 @@ import tkinter.font as font
 
 root = Tk()
 root.title("Simple Calculator")
-#root.geometry("366x375")
+
 root.resizable(width=False, height=False)
 root.iconbitmap("Calculator_Icon.ico")
 inputs = Entry(root,width=15,borderwidth=5,font="Orbitron 20")
