@@ -6,7 +6,7 @@ root.title("Simple Calculator")
 
 root.resizable(width=False, height=False)
 root.iconbitmap("Calculator_Icon.ico")
-inputs = Entry(root,width=15,borderwidth=5,font="Orbitron 20")
+inputs = Entry(root,width=15,borderwidth=5,font="Orbitron 20",justify="right")
 inputs.grid(row=0,column=0,columnspan=5,ipadx=50,pady=5,ipady=30)
 
 myfont=font.Font(size=15,weight="bold")
